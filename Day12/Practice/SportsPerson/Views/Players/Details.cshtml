@@ -1,0 +1,17 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+<div>
+    @{
+         <h1>Player Details</h1>
+                        <hr>
+
+        Player p =  ViewData["player"] as Player;
+        <p> Id: @p.Playerid</p>
+        <p> Name:  <b> <u></u>@p.Name</b></p>
+        <p> Sport: @p.Sports</p>
+        <p> Matches: @p.Matches</p>
+    }
+</div>

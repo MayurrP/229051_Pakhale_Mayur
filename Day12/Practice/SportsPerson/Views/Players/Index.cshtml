@@ -1,0 +1,17 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Index Page";
+}
+
+<div>
+    <h2>List of  Players</h2>
+    @{
+        List<Player> allPlayers= (List<Player>)ViewData["players"];
+        <table border="2px" style="border-collapse: collapse;">
+            <tr><th>Player Id</th><th>Player Name</th></tr>
+            @foreach(Player play in allPlayers){
+                <tr><td>@play.Playerid</td><td>@play.Name</td><td><a href="/players/details/@play.Playerid">Details</td></tr>
+            }    
+        </table>    
+    }
+</div>

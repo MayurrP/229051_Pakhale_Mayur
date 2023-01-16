@@ -1,0 +1,15 @@
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\bin\Debug\net7.0\DAL.dll
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\bin\Debug\net7.0\DAL.pdb
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\bin\Debug\net7.0\BOL.dll
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\bin\Debug\net7.0\BOL.pdb
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.dll
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\DAL.pdb
+D:\Practical\dotnetPractical\DotNet\Day12\Practice\DAL\obj\Debug\net7.0\ref\DAL.dll
