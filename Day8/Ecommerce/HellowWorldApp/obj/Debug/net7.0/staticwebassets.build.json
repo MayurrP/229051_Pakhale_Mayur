@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aXfvBELFZHFjqI6cGPKSZ2pawxBP1c4n7pgz4ZSkM40=",
+  "Source": "HellowWorldApp",
+  "BasePath": "_content/HellowWorldApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

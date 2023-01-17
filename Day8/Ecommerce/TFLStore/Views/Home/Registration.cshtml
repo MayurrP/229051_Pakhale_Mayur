@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "Registration Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Registration</h1>
+    <hr>
+    <form action="/home/ValidateRegistration">
+        <table align="center" cellspacing = "3px" cellpadding = "5px"> 
+            <tr>
+                <td><label for="fname">First Name : </label></td>
+                <td><input type="text" name="fname" id="fname" value="" required autofocus></td>
+            </tr>
+             <tr>
+                <td><label for="lname">Last Name : </label></td>
+                <td><input type="text" name="lname" id="lname" value="" required ></td>
+            </tr>
+            <tr>
+                <td><label for="contactno">Mobile No : </label></td>
+                <td><input type="number" name="contactno" id="contactno" value="" required minlength="10" maxlength="10"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email Id : </label></td>
+                <td><input type="email" name="email" id="email" value="" required ></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password : </label></td>
+                <td><input  type="password" name="password" id="password" value="" required></td>
+            </tr>
+            <tr>
+            <td colspan="2"><input type="submit" value=" Submit ">&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value=" Clear "></td>
+        </tr>
+        </table>
+    </form>   
+</div>

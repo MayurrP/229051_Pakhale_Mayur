@@ -22,6 +22,23 @@ public class HomeController : Controller
     {
         return View();
     }
+     public IActionResult Login()
+    {
+        return View();
+    }
+    public IActionResult Validate(string email, string password){
+         Console.WriteLine("Validating User credentials.... ");
+        
+         if(email == "admin@gmail.com" && password=="admin@123"){
+             Console.WriteLine("successfull validation of user..... ");
+             Console.WriteLine("Redirecting to welcome..... ");   
+            return Redirect("/players/insert");
+           }
+           else{
+                return Redirect("/home/Login");
+           }    
+        return View();   
+    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
