@@ -38,10 +38,7 @@ public class PlayersController : Controller
     [HttpPost]
     public IActionResult Insert( Player plays){
         if(!ModelState.IsValid){
-
-               
           return View();
-
         }
         Console.WriteLine(plays.Playerid + 
                            " " +
